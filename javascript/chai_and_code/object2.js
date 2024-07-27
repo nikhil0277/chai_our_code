@@ -27,3 +27,32 @@ const obj2={5:"nick",6:"hitu",7:"star"}
 const obj3 ={...obj1,...obj2}//ye bhi same hi kam karta hai
 
 console.log(obj3)
+
+
+
+
+     const course={
+          courseName:"js",
+          price :999,
+          courseInstructer:"hitesh"
+     }
+     const {courseInstructer} = course// bar bar course.instructer ko use na krna pde 
+     console.log(courseInstructer)
+
+
+
+
+
+     //API
+     //JSON
+     {
+          "Name":"nikhil",
+          "class":"cse",
+          "cost":"free",
+     }
+
+     [
+          {"Name1":"nikhil"},
+          {"class":"cse"},
+          {"cost":"free"}
+     ]
