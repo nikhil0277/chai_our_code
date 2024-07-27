@@ -1,2 +1,1 @@
-jsUser.name="nikhil"
-// console.log(jsUser.name)
+obj2
