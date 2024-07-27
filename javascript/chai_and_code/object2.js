@@ -13,7 +13,10 @@ lastName:"kumar"
      }
 }
 console.log(tinder.fullName.userFullName.firstName)
-console.log(tinderUser)
+console.log(Object.keys(tinderUser))
+console.log(Object.values(tinderUser))
+console.log(Object.entries(tinderUser))
+console.log(tinderUser.hasOwnProperty('Name'))//for checking peroperties are persent ou not in the object 
 
 const obj1={1:"nikhil",2:"hitesh",4:"hitubhai"}
 const obj2={5:"nick",6:"hitu",7:"star"}
